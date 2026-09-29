@@ -1,0 +1,14 @@
+export type Organization = { id: string; name: string; shortName: string; icon: string; description: string; missions: string[]; scenes: number; locations: number; changes: number; emergencies: number; typeId?: string; ownerEmail?: string; homeLocationId?: string; headquarters?: string; createdAt?: string };
+export type OrganizationRegistration = { name: string; typeId: string; location: string; locationId?: string; ownerEmail?: string };
+export type WorkspaceMemory = { mission: string; locationId: string; sceneId?: string; aoi?: [number, number][]; lastAnalysisId?: string; draft?: { before: string; during: string; after: string } };
+export type GeoLocation = { id: string; name: string; region: string; country: string; lat: number; lng: number; image: string; landType: string };
+export type Scene = { id: string; locationId: string; title: string; date: string; source: string; cloud: number; relevance: number; description: string; category: string; image: string; stage: string; tags: string[] };
+export type Change = { id: string; category: string; area: number; percentage: number; confidence: number; color: string; description: string; offset: [number, number] };
+export type Analysis = { id: string; organizationId: string; mission: string; title: string; locationId: string; category: string; event: string; before: string; during: string; after: string; date: string; status: string; changeCount: number; area: number; percentage: number; confidence: number; source: string; changes: Change[]; insight: string; emergency: boolean; aoi?: [number, number][] };
+export type Emergency = { id: string; type: string; icon: string; locationId: string; title: string; severity: string; status: string; area: number; roads: number; buildings: number; vegetation: number; waterExpansion: number; confidence: number; description: string };
+export type Report = { id: string; analysisId: string; organizationId: string; title: string; createdAt: string; analysis: Analysis; author: string };
+export type Catalog = { organizations: Organization[]; locations: GeoLocation[]; scenes: Scene[]; analyses: Analysis[]; changes: Change[]; emergencies: Emergency[]; reports: Report[] };
+export type SearchFilters = { location: string; from: string; to: string; cloud: number; landType: string; source: string; category: string };
+export type AnalysisRequest = { organizationId: string; mission: string; locationId: string; before: string; during: string; after: string; event: string; emergency: boolean; aoi?: [number, number][] };
+export type Session = { name: string; email: string; role: string };
+export type Preferences = { notifications: boolean; units: 'km²' | 'ha'; defaultLayer: 'satellite' | 'map'; compact: boolean };

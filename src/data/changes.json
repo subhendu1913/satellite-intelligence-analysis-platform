@@ -1,0 +1,11 @@
+[
+ {"id":"flood","category":"Flooding","area":128.4,"percentage":34.8,"confidence":94.2,"color":"#f19849","description":"Simulated water expansion into previously non-water areas along the floodplain.","offset":[0.008,-0.013]},
+ {"id":"damage","category":"Infrastructure damage","area":8.6,"percentage":12.3,"confidence":88.6,"color":"#ec666d","description":"Prototype surface changes near built-up areas; damage cannot be confirmed from this demonstration.","offset":[-0.014,0.009]},
+ {"id":"vegetation","category":"Vegetation change","area":24.8,"percentage":18.5,"confidence":91.8,"color":"#46b5a5","description":"Simulated vegetation-cover differences that may reflect inundation or seasonal variation.","offset":[0.019,0.017]},
+ {"id":"forest","category":"Deforestation","area":42.6,"percentage":16.4,"confidence":93.7,"color":"#46b5a5","description":"Illustrative forest-cover loss concentrated along existing clearing boundaries.","offset":[0.008,-0.013]},
+ {"id":"urban","category":"Urban expansion","area":18.3,"percentage":22.6,"confidence":95.1,"color":"#8a9dea","description":"Simulated growth in built-up land at the edge of an existing urban area.","offset":[-0.006,0.005]},
+ {"id":"construction","category":"Construction","area":6.8,"percentage":14.2,"confidence":92.4,"color":"#d0a765","description":"Illustrative new building footprints and cleared construction surfaces.","offset":[0.012,0.016]},
+ {"id":"road","category":"Road development","area":3.2,"percentage":8.1,"confidence":96.2,"color":"#8a9dea","description":"Simulated linear expansion connecting existing road infrastructure.","offset":[-0.014,0.009]},
+ {"id":"water","category":"Water-body change","area":32.4,"percentage":21.8,"confidence":94.6,"color":"#5faff5","description":"Illustrative changes to open-water extent, distinct from verified flooding.","offset":[0.017,-0.004]},
+ {"id":"agriculture","category":"Agricultural/land-use change","area":56.2,"percentage":19.4,"confidence":92.8,"color":"#46b5a5","description":"Prototype crop-cover transitions; seasonal cycles and field observations must be considered.","offset":[0.008,-0.013]}
+]

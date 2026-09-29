@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="1000" viewBox="0 0 1400 1000" role="img" aria-labelledby="title description">
+ <title id="title">Satellite reference unavailable</title>
+ <desc id="description">A locally bundled placeholder for an unavailable demonstration satellite image. Not satellite evidence.</desc>
+ <rect width="1400" height="1000" fill="#203649"/>
+ <path d="M0 0H690L672 94 705 182 648 276 690 363 630 441 662 526 602 619 632 719 557 834 606 1000H0Z" fill="#405948"/>
+ <path d="M1400 0H946L906 91 943 166 872 254 907 331 850 425 874 519 812 597 850 691 790 793 815 874 769 1000H1400Z" fill="#465b46"/>
+ <g fill="#58694b" opacity=".65"><path d="M80 87L256 48 312 216 138 250Z"/><path d="M329 287L525 254 555 447 364 465Z"/><path d="M91 551L277 510 318 696 117 734Z"/><path d="M354 768L513 717 559 881 405 928Z"/><path d="M1071 94L1275 67 1325 255 1123 294Z"/><path d="M1003 409L1208 387 1241 576 1057 609Z"/><path d="M1013 743L1298 685 1340 893 1049 940Z"/></g>
+ <g fill="none" stroke="#c6d6e4" stroke-opacity=".12" stroke-width="1"><path d="M0 200H1400M0 400H1400M0 600H1400M0 800H1400M200 0V1000M400 0V1000M600 0V1000M800 0V1000M1000 0V1000M1200 0V1000"/></g>
+ <rect x="382" y="428" width="636" height="144" rx="10" fill="#0f243b" fill-opacity=".95" stroke="#6581a0"/>
+ <text x="700" y="481" text-anchor="middle" font-family="Arial, sans-serif" font-size="27" font-weight="600" fill="#eef5ff">Satellite preview unavailable</text>
+ <text x="700" y="523" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" fill="#c2d4e9">LOCAL DEMO PLACEHOLDER · NOT SATELLITE EVIDENCE</text>
+</svg>

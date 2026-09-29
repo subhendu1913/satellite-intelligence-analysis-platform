@@ -1,0 +1,9 @@
+[
+ {"id":"kochi","name":"Kochi","region":"Kerala","country":"India","lat":9.9712,"lng":76.2973,"image":"/images/satellite/kochi-satellite.jpg","landType":"Coastal / wetland"},
+ {"id":"wayanad","name":"Wayanad","region":"Kerala","country":"India","lat":11.6854,"lng":76.132,"image":"/images/satellite/forest-satellite.jpg","landType":"Forest"},
+ {"id":"amazon","name":"Amazon Basin","region":"Mato Grosso","country":"Brazil","lat":-10.64,"lng":-55.7,"image":"/images/satellite/forest-satellite.jpg","landType":"Forest"},
+ {"id":"delhi","name":"New Delhi","region":"Delhi NCR","country":"India","lat":28.573,"lng":77.302,"image":"/images/satellite/urban-satellite.jpg","landType":"Urban"},
+ {"id":"sundarbans","name":"Sundarbans","region":"West Bengal","country":"India","lat":21.9497,"lng":89.1833,"image":"/images/satellite/kochi-satellite.jpg","landType":"Coastal / wetland"},
+ {"id":"punjab","name":"Ludhiana","region":"Punjab","country":"India","lat":30.901,"lng":75.8573,"image":"/images/satellite/forest-satellite.jpg","landType":"Agricultural"},
+ {"id":"mumbai","name":"Mumbai","region":"Maharashtra","country":"India","lat":19.076,"lng":72.8777,"image":"/images/satellite/urban-satellite.jpg","landType":"Urban"}
+]

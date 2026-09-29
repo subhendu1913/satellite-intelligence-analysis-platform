@@ -1,0 +1,35 @@
+
+> dev
+> next dev --hostname 127.0.0.1 --port 3000
+
+▲ Next.js 16.2.6 (Turbopack)
+- Local:         http://127.0.0.1:3000
+- Network:       http://127.0.0.1:3000
+✓ Ready in 389ms
+[satellite assets] Restored 5 local images from the bundled offline backup.
+
+ GET /api/health 200 in 432ms (next.js: 407ms, application-code: 25ms)
+ GET /api/catalog 200 in 120ms (next.js: 113ms, application-code: 7ms)
+○ Compiling /[section] ...
+ GET /temporal 200 in 5.4s (next.js: 5.0s, generate-params: 479ms, application-code: 396ms)
+ GET /search 200 in 161ms (next.js: 49ms, generate-params: 42ms, application-code: 112ms)
+ GET / 200 in 1050ms (next.js: 992ms, application-code: 57ms)
+ GET /missions 200 in 121ms (next.js: 37ms, generate-params: 34ms, application-code: 83ms)
+ GET /saved 200 in 117ms (next.js: 35ms, generate-params: 31ms, application-code: 82ms)
+ GET /history 200 in 75ms (next.js: 2ms, generate-params: 62µs, application-code: 72ms)
+ GET /changes 200 in 95ms (next.js: 26ms, generate-params: 23ms, application-code: 69ms)
+ GET /emergency 200 in 93ms (next.js: 27ms, generate-params: 24ms, application-code: 67ms)
+ GET /map?tab=imagery 200 in 113ms (next.js: 32ms, generate-params: 28ms, application-code: 81ms)
+ GET /welcome 200 in 122ms (next.js: 30ms, generate-params: 27ms, application-code: 91ms)
+ GET /login 200 in 89ms (next.js: 27ms, generate-params: 25ms, application-code: 61ms)
+ GET /reports 200 in 89ms (next.js: 3ms, generate-params: 51µs, application-code: 86ms)
+ GET /temporal 200 in 96ms (next.js: 27ms, generate-params: 25ms, application-code: 69ms)
+ GET /search 200 in 109ms (next.js: 25ms, generate-params: 22ms, application-code: 84ms)
+ GET /missions 200 in 92ms (next.js: 24ms, generate-params: 21ms, application-code: 68ms)
+ GET /saved 200 in 104ms (next.js: 32ms, generate-params: 30ms, application-code: 72ms)
+ GET /history 200 in 86ms (next.js: 3ms, generate-params: 33µs, application-code: 82ms)
+ GET /map?tab=imagery 200 in 104ms (next.js: 28ms, generate-params: 25ms, application-code: 76ms)
+ GET /reports 200 in 104ms (next.js: 34ms, generate-params: 31ms, application-code: 70ms)
+ GET /temporal 200 in 105ms (next.js: 31ms, generate-params: 28ms, application-code: 75ms)
+ GET /missions 200 in 111ms (next.js: 32ms, generate-params: 29ms, application-code: 79ms)
+ GET /reports 200 in 59ms (next.js: 2ms, generate-params: 27µs, application-code: 57ms)
